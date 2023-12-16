@@ -1,0 +1,23 @@
+---
+- mystudents:
+  - name: anil
+    phone: 88989898989
+    address: 
+        doorno: 01230
+        streetno: 3
+        pincode: 602353
+
+ 
+  - name: sunil
+    phone: 88989898989
+    address: 
+        doorno: 31230
+        streetno: 3
+        pincode: 62353
+
+  - name:  veniel
+    phone: 88989898989
+    address: 
+        doorno: 71230
+        streetno: 83
+        pincode: 962353
