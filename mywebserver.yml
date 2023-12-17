@@ -15,14 +15,4 @@
         state : started         
       when: ansible_os_family== "Debian"
 
-    - name:  to install webserver on ansible RedHat
-      apt: 
-        name : httpd
-        state : present
-      when: ansible_os_family== "RedHat"
-
-    - name: i want webserver on ansible RedHat
-      service:
-        name : httpd
-        state : started         
-      when: ansible_os_family== "RedHat"   
+    
