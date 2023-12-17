@@ -9,10 +9,9 @@
         state : present
       when: ansible_os_family== "Debian"
 
-    - name: i want webserver on ansible Ubuntu
+    - name: i want webserver on ansible Ubuntu2
       service:
         name : apache2
         state : started         
       when: ansible_os_family== "Debian"
-
     
